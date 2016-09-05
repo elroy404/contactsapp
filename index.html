@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
@@ -23,10 +23,15 @@
           <label for="last-name">Last name</label>
           <input type="last-name" class="form-control" id="last-name" placeholder="">
         </div>
-        <div class="form-group">
+        <div class="form-group" id="phone-number">
           <label for="phone-num">Phone number</label>
+          <button type="button" class="btn btn-primary" id="add-phone-button">Add Phone Number</button>
           <input type="phone-num" class="form-control" id="phone-num" placeholder="">
+<!-- phone 2 -->
+          <input type="phone-num" class="form-control" id="phone-num-2" placeholder="">
         </div>
+<!-- address 1 -->
+        <h4 class="address-2" id="address-1-header">Primary Address:</h4>
         <div class="form-group">
           <label for="street-address">Street</label>
           <input type="street-address" class="form-control" id="street-address" placeholder="">
@@ -39,7 +44,22 @@
           <label for="state">State</label>
           <input type="state" class="form-control" id="state" placeholder="">
         </div>
-        <button type="button" class="btn btn-primary" id="add-button">Add</button>
+<!-- address 2 -->
+        <h4 class="address-2" id="address-2-header">Secondary Address:</h4>
+        <div class="form-group address-2">
+          <label for="street-address">Street 2</label>
+          <input type="street-address" class="form-control" id="street-address-2" placeholder="">
+        </div>
+        <div class="form-group address-2">
+          <label for="city">City 2</label>
+          <input type="city" class="form-control" id="city-2" placeholder="">
+        </div>
+        <div class="form-group address-2">
+          <label for="state">State 2</label>
+          <input type="state" class="form-control" id="state-2" placeholder="">
+        </div>
+        <button type="button" class="btn btn-primary" id="add-address-button">Add Address</button>
+        <button type="button" class="btn btn-primary" id="add-contact-button">Add Contact</button>
       </form>
     </div>
 

@@ -23,6 +23,7 @@
   width: 40%;
   float: left;
   margin-top: 5rem;
+  display: none;
   /*border: 2px solid orange;*/
 }
 
@@ -32,4 +33,35 @@
   float: left;
   margin-left: 1.5rem;
   /*display: none;*/
+}
+
+.rolodex h2{
+  display: none;
+}
+
+#phone-num-2{
+  display: none;
+  margin-top: 5px;
+}
+
+.address-2{
+  display: none;
+}
+
+#address-2-header, #address-1-header{
+  color: #337ab7;
+}
+
+/*buttons*/
+
+#add-phone-button{
+  height: 2.4em;
+  width: auto;
+  margin: 5px;
+}
+
+#add-contact-button{
+  color: #757575;
+  background-color: #BDBDBD;
+  border-color: #E0E0E0;
 }
